@@ -98,7 +98,7 @@ select {
     font-weight: 400;
     line-height: 19.36px;
     text-align: left;
-    padding-left: 20px;
+    padding:0px 20px;
     list-style-image: url(/project/assets/img/solar_map-arrow-up-bold.svg);
     color: rgba(48, 48, 48, 1);
 }
@@ -109,7 +109,7 @@ select {
     font-weight: 400;
     line-height: 19.36px;
     text-align: left;
-    padding-left: 20px;
+    padding: 0px 20px;
     color: rgba(48, 48, 48, 1);
 }
 
@@ -170,13 +170,13 @@ th {
     font-weight: 700;
     line-height: 16.94px;
     text-align: center;
-    padding: 12px 15px 11px 14px;
+    padding: 12px 15px;
 
 
 }
 
 td {
-    padding: 12px 15px 11px 14px;
+    padding: 12px 15px;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.94px;
@@ -192,7 +192,7 @@ footer {
     background-color: rgba(163, 167, 255, 0.3);
     width: 1440px;
     height: 70px;
-    padding: 26px 0 27px;
+    padding: 26px 0px;
 
 
 }
@@ -204,5 +204,6 @@ footer {
     line-height: 16.94px;
     text-align: left;
     color: rgba(41, 101, 241, 1);
+    text-decoration-line: none;
 
 }
